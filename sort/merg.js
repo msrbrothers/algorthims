@@ -6,7 +6,6 @@ function mergSort(arr) {
     if (len <= 1) return arr;
 
     const mid = (len / 2) | 0;
-
     const left = arr.slice(0, mid);
     const right = arr.slice(mid, len);
 
